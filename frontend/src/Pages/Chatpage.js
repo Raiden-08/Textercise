@@ -12,7 +12,7 @@ export const Chatpage = () => {
     <div style={{ width: "100%" }}>
     {user && <SideDrawer />}
     <Box
-    bgImage="url(https://c4.wallpaperflare.com/wallpaper/617/363/732/wave-red-lines-light-wallpaper-preview.jpg)"
+    bgImage="url(https://c4.wallpaperflare.com/wallpaper/707/220/899/gradient-blue-pink-abstract-art-wallpaper-preview.jpg)"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="cover"

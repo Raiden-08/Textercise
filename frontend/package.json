@@ -19,7 +19,7 @@
     "react-lottie": "^1.2.4",
     "react-notification-badge": "^1.5.1",
     "react-router-dom": "^5.3.4",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-scrollable-feed": "^2.0.2",
     "socket.io-client": "^4.8.1",
     "web-vitals": "^2.1.4"
@@ -47,5 +47,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "Sagar",
+  "license": "ISC"
 }

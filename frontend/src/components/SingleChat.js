@@ -167,7 +167,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
             pb={3}
             px={2}
             w="100%"
-            fontFamily="Work sans"
+            fontFamily="Arial, Helvetica, sans-serif"
             d="flex"
             color="white"
             borderWidth="1px"
@@ -201,7 +201,6 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
               ))}
           </Text>
           <Box
-          bgImage="url(https://w0.peakpx.com/wallpaper/668/211/HD-wallpaper-burning-roses-black-burn-dark-fire-rose-thumbnail.jpg)"
             bgPosition="center"
              bgRepeat="no-repeat"
              bgSize="cover"
@@ -261,7 +260,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
       ) : (
         // to get socket.io on same page
         <Box d="flex" alignItems="center" justifyContent="center" h="100%">
-          <Text fontSize="3xl" pb={3} fontFamily="Work sans" color="white" opacity="1">
+          <Text fontSize="3xl" pb={3} fontFamily="Arial, Helvetica, sans-serif" color="white" opacity="1">
             Click on a user to start chatting
           </Text>
         </Box>

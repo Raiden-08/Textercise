@@ -134,7 +134,7 @@ import {
           <ModalContent bg="black" opacity="0.7">
             <ModalHeader
               fontSize="35px"
-              fontFamily="Work sans"
+              fontFamily="Arial, Helvetica, sans-serif"
             color="white"
               d="flex"
               justifyContent="center"

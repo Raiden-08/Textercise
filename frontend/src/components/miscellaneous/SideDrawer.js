@@ -137,14 +137,14 @@ function SideDrawer() {
         borderRadius="15px"
       >
         <Tooltip label="Search Users to chat" hasArrow placement="bottom-end">
-          <Button variant="ghost"   borderWidth="1px" borderRadius="15px" onClick={onOpen}>
+          <Button variant="ghost"   borderWidth="1px" borderRadius="15px" onClick={onOpen} _hover={{ boxShadow: "0 0 8px cyan" }}>
             <i className="fas fa-search"></i>
             <Text d={{ base: "none", md: "flex" }} px={4}>
               Search User
             </Text>
           </Button>
         </Tooltip>
-        <Text fontSize="3xl" fontFamily="Work sans">
+        <Text fontSize="3xl" fontFamily="Arial, Helvetica, sans-serif">
           Textercise
         </Text>
         <div>
@@ -205,7 +205,7 @@ function SideDrawer() {
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
               />
-              <Button bg="tomato" onClick={handleSearch}>Go</Button>
+              <Button bg="tomato" onClick={handleSearch} _hover={{ boxShadow: "0 0 15px cyan" }}>Go</Button>
             </Box>
             {loading ? (
               <ChatLoading />
